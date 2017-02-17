@@ -14,6 +14,28 @@ body {
 
 #title{
   background: #f96161;
+  border-bottom: 4px solid white;
+}
+
+#title img{
+  height: .5em;
+  width: auto;
+  padding: 0;
+  margin-right: -.28em;
+  display: inline-block;
+  padding-bottom: 2em;
+}
+
+#squiggle-top{
+  text-align: center;
+  padding-top: 6em;
+}
+
+
+#squiggle{
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 4em;
 }
 
 h1{
@@ -22,36 +44,47 @@ h1{
   color: white;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-hr{
-  border: 0;
-  border-top: 4px solid black;
-  width: 90%;
+  padding-top: .3em;
+  padding-bottom: .5em;
 }
 
 li #nav-one a{
   margin: 0;
   padding: 0;
   display: block;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background: #e5c3c6;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom: 4px solid white;
 }
 
 li #nav-two a{
   margin: 0;
   padding: 0;
   display: block;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background: #cfd06e;
+  border-bottom: 4px solid white;
 }
 
 li #nav-three a{
   margin: 0;
   padding: 0;
   display: block;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background: #7fc5c0;
+  border-bottom: 4px solid white;
 }
 
 nav ul{
@@ -62,9 +95,20 @@ nav ul{
 }
 
 
-nav a img{
-  height: 1.5em;
+/*nav a img{
+  height: 3em;
   width: auto;
   padding-top: 1em;
   padding-bottom: 1em;
+}*/
+
+h3,
+h4,
+p{
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#avocado{
+  padding-top: 3em;
 }
