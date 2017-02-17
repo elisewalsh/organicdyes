@@ -305,6 +305,20 @@ p{
   color: #fff;
 }
 
+p{
+  font-size: 1em;
+}
+
+#squiggle-top img{
+  height: 10px;
+  width: auto;
+}
+
+#squiggle img{
+  height: 10px;
+  width: auto;
+}
+
 #avocado img{
   display: none;
   margin: 0;
