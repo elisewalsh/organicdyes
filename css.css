@@ -70,7 +70,7 @@ li #nav-two a{
   color: white;
   padding-top: 1em;
   padding-bottom: 1em;
-  background: #cfd06e;
+  background: #efd06e;
   border-bottom: 4px solid white;
 }
 
@@ -94,21 +94,279 @@ nav ul{
 	margin: 0;
 }
 
-
-/*nav a img{
-  height: 3em;
-  width: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}*/
-
-h3,
 h4,
 p{
   padding-right: 1em;
   padding-left: 1em;
+  color: #afafaf;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3{
+  font-size: 2em;
+  color: #afafaf;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h4{
+  font-size: 1.4em;
+}
+
+ol{
+  margin-left: 2em;
+  font-size: .9em;
+  color: #afafaf;
+  line-height: 1.4em;
+}
+
+p{
+  line-height: 1.4em;
+  font-size: 1.2em;
 }
 
 #avocado{
+  padding-top: 6em;
+}
+
+#turmeric{
+  margin-top: 10em;
+}
+
+#bean{
+  margin-top: 10em;
+}
+
+#avocado img{
+  height: auto;
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+#bean img{
+  height: auto;
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+#turmeric img{
+  height: auto;
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+#color-block{
+  margin: 0 auto;
+  height: 3em;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.one{
+  background: #e5c3c6;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.two{
+  background: #ceafb2;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.three{
+  background: #b79c9e;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.four{
+  background: #a0888a;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+#t-color-block{
+  margin: 0 auto;
+  height: 3em;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.t-one{
+  background: #efd06e;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.t-two{
+  background: #d7bb63;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.t-three{
+  background: #bfa658;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.t-four{
+  background:#a7914d;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+#b-color-block{
+  margin: 0 auto;
+  height: 3em;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.b-one{
+  background: #7fc5c0;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.b-two{
+  background: #72b1ac;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.b-three{
+  background: #659d99;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.b-four{
+  background: #588986;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+#white{
+  display: none;
+}
+
+
+/* ------- Media Query --------- */
+
+
+@media (min-width: 60em){
+
+nav{
+  display: none;
+}
+
+h1,
+h3,
+h4,
+h6,
+ul,
+ol,
+p{
+  color: #fff;
+}
+
+#avocado img{
+  display: none;
+  margin: 0;
+}
+
+#turmeric img{
+  display: none;
+  margin: 0;
+}
+
+#bean img{
+  display: none;
+  margin: 0;
+}
+
+#title{
+  margin: 1em;
+  margin-bottom: 0;
+}
+
+#avocado{
+  width: 35%;
+  background: #e5c3c6;
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: 0;
+}
+
+#turmeric{
+  width: 35%;
+  background: #efd06e;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding: 0;
+}
+
+
+#bean{
+  width: 35%;
+  background: #7fc5c0;
+  margin-top: 1em;
+  margin-right: 1em;
+  padding: 0;
+}
+
+main{
+  display: flex;
+}
+
+#white{
+  display: block;
+  height: 40%;
+  width: auto;
+  margin: 0 auto;
+}
+
+#white img{
+  display: block;
+  margin: 0 auto;
   padding-top: 3em;
+}
+
+
 }
